@@ -1,0 +1,35 @@
+{
+  "editor": {
+    "cursorSmoothCaretAnimation": true,
+    "cursorSurroundingLines": 5,
+    "fontFamily": "'CaskaydiaCove Nerd Font Mono', Cascadia, 'Courier New', monospace",
+    "fontSize": 14,
+    "formatOnSave": true,
+    "inlineSuggest.enabled": true,
+    "lineHeight": 24,
+    "lineNumbers": "relative",
+    "minimap.enabled": false,
+    "renderWhitespace": "all",
+    "smoothScrolling": true,
+    "stickyScroll.enabled": true,
+  },
+  "extensions": {
+    "experimental.affinity": {
+      "vscode.vim": 1
+    }
+  },
+  "update": {
+    "showReleaseNotes": false,
+  },
+  "vim": {
+    "camelCaseMotion.enable": true,
+    "easymotion": true,
+    "foldFix": true,
+    "incsearch": true,
+    "hlsearch": true,
+    "highlightedYank.enable": true,
+    "joinspaces": false,
+    "leader": "<,>",
+    "useSystemClipboard": true,
+  }
+}

@@ -1,0 +1,6 @@
+[workspace]
+members = [
+  "sutorio_axum_utils_crypto",
+  "sutorio_axum_utils_sqlite",
+]
+resolver = "2"

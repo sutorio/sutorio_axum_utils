@@ -1,0 +1,56 @@
+[
+  {
+    "command": "expand_region",
+    "key": "ctrl+=",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "undo_expand_region",
+    "key": "ctrl+shift+=",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "command": "shrink_region",
+    "key": "ctrl+-",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "command": "undo_shrink_region",
+    "key": "ctrl+shift+-",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+e"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "c",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  }
+]

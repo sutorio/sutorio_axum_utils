@@ -1,0 +1,21 @@
+[package]
+name = "sutorio_axum_utils_crypto"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+# 1. base64ct: base64 will be used to encode/format everything
+# 2. chrono: ISO-compliant time lib
+# 3. hmac: HMAC-SHA256 implementation
+# 4. rand: de facto standard random number generation
+# 5. sha2: SHA256 implementation
+base64ct = { version = "1.6.0", features = ["alloc"] } # [1]
+chrono = "0.4.31" # [2]
+hmac = "0.12.1" # [3]
+rand = "0.8.5" # [4]
+serde = { version = "1.0.188", features = ["derive"] }
+sha2 = "0.10.8" # [5]
+
+[dev-dependencies]
+anyhow = "1.0.75"
